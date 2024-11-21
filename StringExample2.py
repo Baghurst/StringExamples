@@ -80,6 +80,78 @@ print(b)
 c = string3.islower()
 print(c)
 
+#Example7: string.isspace()
+#Checks if the characters in the string are only white space characters, if they are it's true if not false.
+print("Example7:")
+a = string = " " #stores three spaces
+print(a)
+b = string2 =""  #an empty string
+print(b)
+a = string.isspace()
+print(a)
+b = string2.isspace()
+print(b)
+
+#Example8: string.isupper()
+#Checks if the characters in the string are only upper case, if they are it's true if not false.
+print("Example8")
+a = string = "HELLO"
+print(a)
+b = string2 = "There"
+print(b)
+c = string3 = "goldy"
+print(c)
+d = string4 = "U123" # in uppercase
+print(d)
+e = string5 = "123f" #in lowercase
+print(e)
+a = string.isupper()
+print(a)
+b = string2.isupper()
+print(b)
+c = string3.isupper()
+print(c)
+d = string4.isupper()
+print(d)
+e = string5.isupper()
+print(e)
+
+#Example9: string.lower()
+#Returns a copy of the string coverted to lowercase.
+print("Example9")
+a = string.lower()
+print(a)
+b = string2.lower()
+print(b)
+c = string3.lower()
+print(c)
+d = string4.lower()
+print(d)
+e = string5.lower()
+print(e)
+
+#Example10: string.upper()
+#Returns a copy of the string coverted to uppercase.
+print("Example10")
+a = string.upper()
+print(a)
+b = string2.upper()
+print(b)
+c = string3.upper()
+print(c)
+d = string4.upper()
+print(d)
+e = string5.upper()
+print(e)
+
+
+
+
+
+
+
+
+
 
 
 
