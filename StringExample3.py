@@ -21,7 +21,29 @@ print("Capitalized Words String:", result)
 #6. Write a program that reads a string and checks whether it is a palidrome string or not. (Example, noon and racecar are the same either way)
 
 string = input("Enter a string: ")
-length = len(string)
-mid = lenght // 2 
-rev = -1
+length = len(string) #(lenght) = the lenght of (string)
+mid = length // 2 #(mid) = the lenght double divided 
+rev = -1 #
+for a in range(mid) :
+    if string[a] == string[rev] :
+        a += 1
+        rev -= 1
+    else:
+        print(string,"is not a palidrome")
+        break
+else:
+     print(string,"is a palidrome")
+
+#7. Write a program that reads a string
+
+
+
+
+
+
+
+
+
+
+
 
