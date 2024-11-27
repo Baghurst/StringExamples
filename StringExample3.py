@@ -32,17 +32,21 @@ for a in range(mid) :
         print(string,"is not a palidrome")
         break
 else:
-     print(string,"is a palidrome")
+    print(string,"is a palidrome")
 
-#7. Write a program that reads a string
-
-
-
-
-
-
-
-
+#7. Write a program that reads a string and displays the longest substring of the given string having just the consonants.
+#aaaxxxaxxxx
+string = input("Enter a string: ")
+lenght = len(string)
+print(lenght)
+for a in range(lenght) :
+    if string[a] in "aeiouAEIOU" :
+        print("test")
+    else:
+        print(string,"Right")
+        break
+else:
+    print(string,"Wrong")
 
 
 
