@@ -1,4 +1,4 @@
-#STRING MANIPULATION: CHAPTER 9: Pag.287
+'''#STRING MANIPULATION: CHAPTER 9: Pag.287
 #5. Write a program that takes a string with multiple words and then capitalizes the first letter of each word and forms a new string out of it.
 string = input("Enter a string: ") 
 length = len(string) #(lenght) = the lenght of (string)
@@ -33,20 +33,23 @@ for a in range(mid) :
         break
 else:
     print(string,"is a palidrome")
-
+'''
 #7. Write a program that reads a string and displays the longest substring of the given string having just the consonants.
 #aaaxxxaxxxx
 string = input("Enter a string: ")
+consonants = ""
 lenght = len(string)
 print(lenght)
 for a in range(lenght) :
     if string[a] in "aeiouAEIOU" :
-        print("test")
+       print('ap')
     else:
+        consonants = consonants + string[a]
         print(string,"Right")
-        break
+        
 else:
     print(string,"Wrong")
+print(consonants)
 
 
 
